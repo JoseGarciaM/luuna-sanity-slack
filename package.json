@@ -1,0 +1,22 @@
+{
+  "name": "luuna-sanity-slack",
+  "version": "0.1.0",
+  "description": "Get updates in Slack when someone does something in Sanity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseGarciaM/luuna-sanity-slack.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/JoseGarciaM/luuna-sanity-slack/issues"
+  },
+  "dependencies": {
+    "@sanity/client": "^2.19.0",
+    "axios": "^0.22.0",
+    "babel-polyfill": "^6.26.0"
+  }
+}
