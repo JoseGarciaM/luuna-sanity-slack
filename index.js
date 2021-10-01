@@ -1,8 +1,8 @@
 const axios = require('axios');
 const sanityClient = require('@sanity/client')
 const client = sanityClient({
-    projectId: process.env.SANITY_PROJECT_ID,
-    dataset: process.env.SANITY_DATASET_NAME,
+    projectId: SANITY_PROJECT_ID,
+    dataset: SANITY_DATASET_NAME,
     useCdn: true,
 });
 
